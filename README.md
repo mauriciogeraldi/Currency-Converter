@@ -1,31 +1,31 @@
 #  Conversor de Moedas
 
-Este projeto é um **Conversor de Moedas** desenvolvido como parte do challenge da [Alura Latam](https://www.aluracursos.com/) em parceria com a **Oracle Next Education**. Ele permite realizar conversões entre diferentes moedas, utilizando taxas de câmbio atualizadas por meio de uma API.
+This project is a **Currency Converter** developed as part of the [Alura Latam](https://www.aluracursos.com/) challenge in partnership with **Oracle Next Education**. It allows conversions between different currencies using up-to-date exchange rates provided by an API.
 
-##  Funcionalidades
+##  Features
 
--  **Conversão entre as seguintes moedas**:
-    - 🇺🇸 Dólar Americano (USD)
-    - 🇦🇷 Peso Argentino (ARS)
-    - 🇧🇷 Real Brasileiro (BRL)
-    - 🇨🇴 Peso Colombiano (COP)
+-  **Conversion between the following currencies**:
+    - 🇺🇸 US Dollar (USD)
+    - 🇦🇷 Argentine Peso (ARS)
+    - 🇧🇷 Brazilian Real (BRL)
+    - 🇨🇴 Colombian Peso (COP)
 
--  **Suporte para conversão entre todas as moedas citadas**.
--  **Exibição dos resultados com até 2 casas decimais**.
--  **Scan de uma String para a seleção da moeda a ser convertida** .
+-  **Suportfor conversion between all listed currencies**.
+-  **Display of results with up to 2 decimal places**.
+-  **String input scanning for selecting the currency to be converted** .
 
-##  Tecnologias Utilizadas
+##  Technologies Used
 
 - **Java**
-- **Gson** para manipulação de JSON
-- **ExchangeRate-API** para obtenção das taxas de câmbio em tempo real
+- **Gson** for JSON handling
+- **ExchangeRate-API** for retrievinf real-time exchange rates
 
 ## Melhorias Futuras
 
-- Adição de **mais moedas**.
-- Implementação de um **histórico de conversões**, permitindo ao usuário visualizar as últimas operações.
-- Registro de **logs** com detalhes das conversões, incluindo horário e moedas convertidas.
+- Adition of **more currencies**.
+- Implementation of a **conversion history**, allowing users to view recent operations.
+- **Logging** of conversion details, including timestamp and converted currencies.
 
 ## API Utilizada
 
-A API utilizada para obter as taxas de câmbio é a [ExchangeRate-API](https://www.exchangerate-api.com/), que fornece dados atualizados para conversões monetárias.
+The API used to obtain exchange rates is [ExchangeRate-API](https://www.exchangerate-api.com/), which provides up-to-date data for currency conversions.
